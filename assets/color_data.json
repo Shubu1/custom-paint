@@ -1,0 +1,213 @@
+[
+
+{
+
+"id": "45a01380-64fe-49dc-85a9-8bb0b98c3d04",
+
+"name": "silver",
+
+"color1": "#FFFFFF",
+
+"color2": "#231F20",
+
+"color3": ""
+
+},
+
+{
+
+"id": "6e075ef9-ed3e-4d7a-9281-679d132096fb",
+
+"name": "grey",
+
+"color1": "#EBEAE9",
+
+"color2": "#D6D6D6",
+
+"color3": ""
+
+},
+
+{
+
+"id": "6b3f81a0-260e-49ec-8eb7-e66c7ec81f78",
+
+"name": "cool blue",
+
+"color1": "#C1DAE6",
+
+"color2": "#95CBE4",
+
+"color3": "#80B9DB"
+
+},
+
+{
+
+"id": "1b051e42-f1c6-458b-9f2d-7f2ebf016fd9",
+
+"name": "cherry pink",
+
+"color1": "#E6D0DA",
+
+"color2": "#E3B3C8",
+
+"color3": "#E19CBA"
+
+},
+
+{
+
+"id": "840ca007-ec2f-447e-ba37-1b199759f1dc",
+
+"name": "fucsia",
+
+"color1": "#A01AAF",
+
+"color2": "",
+
+"color3": ""
+
+},
+
+{
+
+"id": "3eb5c4e4-bda5-444f-8095-5ff9413204a7",
+
+"name": "lavender",
+
+"color1": "#61629F",
+
+"color2": "KCDL",
+
+"color3": "OMG"
+
+},
+
+{
+
+"id": "9882a59e-5750-48da-ae4e-683c23298ada",
+
+"name": "yellow",
+
+"color1": "#F9D673",
+
+"color2": "PPAK",
+
+"color3": "LOOP"
+
+},
+
+{
+
+"id": "8995a595-0b4f-4460-8ed4-30c4f720164b",
+
+"name": "green",
+
+"color1": "#08593C",
+
+"color2": "BIG",
+
+"color3": "Bang"
+
+},
+
+{
+
+"id": "ea0bc65d-edb1-4ef5-bcd7-e88452a3ffbc",
+
+"name": "gold",
+
+"color1": "#DED1B8",
+
+"color2": "#D6BF94",
+
+"color3": "#A59680"
+
+},
+
+{
+
+"id": "deb61bd7-cec2-45e2-aba3-b397c10a4530",
+
+"name": "red",
+
+"color1": "#AC0D36",
+
+"color2": "HHH",
+
+"color3": "Hog"
+
+},
+
+{
+
+"id": "771ebcf8-8544-4ab8-981d-6780db2b5ddc",
+
+"name": "blue",
+
+"color1": "#0000FF",
+
+"color2": "Rider",
+
+"color3": "Spacer"
+
+},
+
+{
+
+"id": "248bcfa7-d5c2-4de5-8cad-d0ea8ea1358a",
+
+"name": "orange",
+
+"color1": "#EF5A24",
+
+"color2": "Pinger",
+
+"color3": "Ring"
+
+},
+
+{
+
+"id": "357e9701-8a8e-4b36-9eb8-f568404c8718",
+
+"name": "pink",
+
+"color1": "#EB7CD3",
+
+"color2": "Roll",
+
+"color3": "Bang"
+
+},
+
+{
+
+"id": "c7205c50-74dc-45d2-ae2d-dba92a4695b5",
+
+"name": "brown",
+
+"color1": "#8A6239",
+
+"color2": "Old",
+
+"color3": "New"
+
+},
+
+{
+
+"id": "8535fcd3-b00c-4c10-ab9c-700f9ccc9613",
+
+"name": "multicolor",
+
+"color1": "Sad",
+
+"color2": "ksksks",
+
+"color3": "No Color"
+
+}
+
+]
