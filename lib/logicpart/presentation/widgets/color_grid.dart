@@ -22,9 +22,9 @@ class ColorGridState extends State<ColorGrid> {
   }
 
   void fillColorsOneByOne(List<String> newColors) {
-    for (var color in newColors) {
+    if (newColors.isNotEmpty) {
       setState(() {
-        filledColors.add(color);
+        filledColors.add(newColors.first);
       });
     }
   }
@@ -36,13 +36,22 @@ class ColorGridState extends State<ColorGrid> {
       child: ListView.builder(
         physics: const BouncingScrollPhysics(),
         scrollDirection: Axis.vertical,
-        itemCount: (filledColors.length / 5).ceil(),
+        itemCount: (filledColors.length / 5).ceil(), // Number of rows
         itemBuilder: (context, rowIndex) {
           final startIndex = rowIndex * 5;
           final endIndex = (startIndex + 5) > filledColors.length
               ? filledColors.length
               : startIndex + 5;
-          final rowColors = filledColors.sublist(startIndex, endIndex);
+          final rowColors = List.generate(5, (index) {
+            final colorIndex = startIndex + index;
+            if (colorIndex < filledColors.length) {
+              return Color(
+                  int.parse(filledColors[colorIndex].substring(1), radix: 16) +
+                      0xFF000000);
+            } else {
+              return Colors.white;
+            }
+          });
 
           return SingleChildScrollView(
             physics: const BouncingScrollPhysics(),
@@ -53,11 +62,7 @@ class ColorGridState extends State<ColorGrid> {
                   width: 50,
                   height: 50,
                   margin: const EdgeInsets.all(4),
-                  color: index < rowColors.length
-                      ? Color(
-                          int.parse(rowColors[index].substring(1), radix: 16) +
-                              0xFF000000)
-                      : Colors.white,
+                  color: rowColors[index],
                 );
               }),
             ),
