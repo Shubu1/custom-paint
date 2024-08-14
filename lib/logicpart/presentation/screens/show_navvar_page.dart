@@ -29,6 +29,7 @@ class _ShowNavBarState extends State<ShowNavBarPage> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        backgroundColor: Colors.white,
         appBar: AppBar(title: const Text('Color Picker')),
         bottomNavigationBar: colorData.isEmpty
             ? null
@@ -42,7 +43,7 @@ class _ShowNavBarState extends State<ShowNavBarPage> {
               ),
         body: selectedColors.isEmpty
             ? const Center(child: Text('Select a color category'))
-            : ColorGrid(colors: selectedColors),
+            : ColorGrid(selectedColors: selectedColors),
       ),
     );
   }
